@@ -1,1 +1,13 @@
+# Access vars
+url: https://rangelet88.github.io
+baseurl: https://rangelet88.github.io
+repository: rangelet88/rangelet88.github.io
+
+# Definition page vars
+title: La meva primera web
+description: -> Aquesta és la primera prova de web feta amb Jekyll, compilada en
+un entorn Windows i allotjada a GitHub Pages amb sincronització mitjançant Git.
+author: Ramon Àngel Garcia Adell
+
+# Performance vars
 theme: jekyll-theme-architect
