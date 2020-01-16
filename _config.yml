@@ -1,13 +1,20 @@
-# Access vars
-url: https://rangelet88.github.io
-baseurl: https://rangelet88.github.io
-repository: rangelet88/rangelet88.github.io
-
-# Definition page vars
-title: La meva primera web
-description: -> Aquesta és la primera prova de web feta amb Jekyll, compilada en
-un entorn Windows i allotjada a GitHub Pages amb sincronització mitjançant Git.
+title: RangelPage
+email: info@garcad.cat
 author: Ramon Àngel Garcia Adell
+description: A Jekyll blog with bootstrap
+url: "http://localhost:4000"
+baseUrl: "/"
 
-# Performance vars
-theme: jekyll-theme-architect
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+sass:
+  sass_dir: _sass
+  style: compressed
