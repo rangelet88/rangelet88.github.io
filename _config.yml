@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: ""
 site-twitter: rangelet #if your site has a twitter account, enter it here
 permalink: ':title/'
-posts-img-url: 'media/posts/images'
+posts-img-url: 'assets/img/posts/'
 
 # Author Settings
 author: Ramon Àngel Garcia Adell # add your name
