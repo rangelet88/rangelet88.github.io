@@ -8,6 +8,7 @@ img:  # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 comments: true
 categories: [Apunts, diagrama, xarxa]
+visible: true
 ---
 EsdhfjhsDFH JSFH JShfjsH JKFHSUHFUwehfjSN HSDjf hsJHFU
 

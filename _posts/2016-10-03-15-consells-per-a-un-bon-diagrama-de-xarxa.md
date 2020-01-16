@@ -8,6 +8,7 @@ img: i-rest.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 comments: true
 categories: [Apunts, diagrama, xarxa]
+visible: true
 ---
 Enllaço a aquesta entrada una pàgina que dona molts bons consells sobre com fer diagrames de xarxa.
 
