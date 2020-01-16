@@ -1,23 +1,10 @@
----
-title: Home
----
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    {% feed_meta %}
-    {% seo %}
-  </head>
-  <body class="d-flex flex-column h-100">
-    {% include navigation.html %}
-    <main role="main" class="flex-shrink-0">
-      <div class="container">
-        {{ content }}
-      </div>
-    </main>
-    {% include footer.html %}
-    {% include javascript.html %}
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+{% include head.html %}
+<body>
+  <div class="wrapper">
+    {{ content }}
+  </div>
+  {% include analytics.html %}
+</body>
 </html>

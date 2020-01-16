@@ -1,6 +1,6 @@
-- name: Home
+- name: Inici
   link: /
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
+- name: Sobre mi
+  link: /bio.html
+- name: Arxiu
+  link: /schedule.html

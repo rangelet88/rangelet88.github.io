@@ -1,20 +1,43 @@
-title: RangelPage
-email: info@garcad.cat
-author: Ramon Àngel Garcia Adell
-description: A Jekyll blog with bootstrap
-url: "http://localhost:4000"
-baseUrl: "/"
+title: Hello, world! I'm Ramon Àngel Garcia Adell
+description: > # this means to ignore newlines until "baseurl:"
+  Hello I'm a BOFH, fear me! Sorry, I'm also an a geek and freek person; but that it's elementary, no? I am sysadmin!
+  You are welcome to my castle in the cloud. Here you can find some articles about my hobies, codes and other stuff.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: ""
+site-twitter: rangelet #if your site has a twitter account, enter it here
+permalink: ':title/'
+posts-img-url: 'media/posts/images'
 
-# Build settings
+# Author Settings
+author: Ramon Àngel Garcia Adell # add your name
+author-img: rangel.jpg # add your photo
+about-author: > # add description
+  Hello I'm a BOFH, fear me! Sorry, I'm also an a geek and freek person; but that it's elementary, no? I am sysadmin!
+  You are welcome to my castle in the cloud. Here you can find some articles about my hobies, codes and other stuff.
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: rangelet88 # add your Github handle
+social-linkedin: ragadell # add your Linkedin handle
+social-email: "rangeljunior@gmail.com" # add your Email address
+social-instagram: rangelet88 # add your Instagram handle
+social-telegram: rangelet88 # add your telegram handle
+
+# Disqus
+discus-identifier: # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
 markdown: kramdown
-paginate: 5
-paginate_path: "/posts/page:num/"
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-paginate
+  - jemoji
+  - jekyll-feed
+  - jekyll-seo-tag
 
-sass:
-  sass_dir: _sass
-  style: compressed
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
